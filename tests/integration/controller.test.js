@@ -22,7 +22,7 @@ describe('Controller-Service Integration Tests', () => {
     test('handleAddTodo should call service.addTodo and update the model', () => {
         // TODO: Call the controller's handleAddTodo method with some test text.
         const text1 = 'do my hw';
-        const text2 = 'chi';
+        // const text2 = 'chi';
         controller.handleAddTodo(text1);
         // controller.handleAddTodo(text2);
         // Then, get the list of todos directly from the service.
